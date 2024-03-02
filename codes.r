@@ -11,4 +11,5 @@ usethis::use_package("ggplot2")
 
 
 devtools::document()
+usethis::use_mit_license()
 devtools::check()
