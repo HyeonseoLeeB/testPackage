@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' myfunc(3, 5)
+#' myfunc2(3, 5)
 myfunc2 <- function(a, b) {
   result <- a * b + a +1
   return(result)
