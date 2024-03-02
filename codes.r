@@ -10,7 +10,7 @@ install.packages("ggplot2")
 library(ggplot2)
 usethis::use_package("ggplot2")
 
-#after making 2 new functions
+#after making 2 new functions (I had to add roxygen2 header)
 devtools::document()
 usethis::use_mit_license()
 devtools::check()

@@ -1,3 +1,11 @@
+#' My function
+#'
+#' @return A numerical 
+#' @export
+#'
+#' @examples
+#' my_theme()
+
 my_theme <- function() {
   # Adjustments to the default theme
   custom_theme <- theme_dark() +

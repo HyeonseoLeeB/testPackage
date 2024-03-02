@@ -1,3 +1,14 @@
+#' My function
+#'
+#' @param y A numerical vector.
+#' @param X Also a numerical vector.
+#'
+#' @return A numerical 
+#' @export
+#'
+#' @examples
+#' estimate_beta(3, 5)
+#' 
 estimate_beta <- function(y, X) {
     if (length(y) != nrow(X)) {
     stop("Dimensions of 'y' and 'X' are not compatible.")
