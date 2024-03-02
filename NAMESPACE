@@ -2,3 +2,4 @@
 
 export(myfunc)
 export(myfunc2)
+export(myfunctest)
